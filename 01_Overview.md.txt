@@ -1,0 +1,42 @@
+# Code and Coffee - Database Basics
+
+## Why Use a Database to Organize Your Data
+
+* Consistent structure - defined by you
+* Enforced data types
+* Can scale from single tables to sophisticated relational data models
+* Can be a personal file-based or shared server-based solution, depending on your needs
+* Standard language for interacting with your data
+* Data can be accessed by many analysis tools
+
+## Individual Topics
+
+1. What is a table?
+2. Data types
+3. Aside - What about Excel?
+4. Relating tables for power and flexibility
+5. Different database solutions
+	a. File-based (personal)
+	b. Server-based (personal or team)
+	c. Client applications (interact with both file- and server-based solutions)
+6. Structured Query Language (SQL) - *mostly-standard*
+7. Getting data in and out for analysis and visualization
+
+### What is a table?
+
+### Data types
+
+### Aside - What about Excel?
+
+### Relating tables for power and flexibility
+
+### Different database solutions
+
+#### File-based (personal)
+
+#### Server-based (personal or team)
+
+#### Client applications (interact with both file- and server-based solutions)
+
+6. Structured Query Language (SQL) - *mostly-standard*
+7. Getting data in and out for analysis and visualization

@@ -1,4 +1,6 @@
-# Code and Coffee - Database Basics
+% Code and Coffee - Database Basics
+% Karl Benedict, Jon Wheeler. UNM Libraries, Research Data Services
+% February 9, 2018
 
 ## Why Use a Database to Organize Your Data
 
@@ -17,8 +19,8 @@
 3. Different database solutions
 	a. File-based (personal)
 	b. Server-based (personal or team)
-	c. Client applications (interact with both file- and server-based solutions)
-4. Structured Query Language (SQL) - *mostly-standard* (Demo)
+4. Client applications (interact with both file- and server-based solutions)
+5. Structured Query Language (SQL) - *mostly-standard* (Demo)
 
 ### What is a table?
 
@@ -63,10 +65,14 @@ We would like to gather and organize the data needed to track trends in donut ty
 
 With this problem in hand we can start to identify the data we will need to address this problem and sketch out the database design we might use to organize the data once we are able to obtain it. The following figure illustrates a proposed database design that we can walk through to illustrate the key database characteristics outlined above. 
 
-![Donut database design](figures.png)
+![Donut database design ([link to full-resolution image](https://raw.githubusercontent.com/unmrds/cc-database-basics/master/figures.png))](figures.png)
 
 
 ### Aside - What about Excel?
+
+!["The Outlaws" - photo by Magnus - [https://flic.kr/p/e5HGcE](https://flic.kr/p/e5HGcE). [CC BY-ND 2.0](https://creativecommons.org/licenses/by-nd/2.0/)](8586038796_6e128ee568_o_d.jpg){width=4in}
+
+
 
 Managing your data in Excel is sort of like living in parts of the mythical Wild West:
 
@@ -74,8 +80,6 @@ Managing your data in Excel is sort of like living in parts of the mythical Wild
 2. There's a lot of manual labor
 3. If you're not careful you could shoot your foot off
 4. You or a member of your family could get bit by a snake
-
-!["The Outlaws" - photo by Magnus - [https://flic.kr/p/e5HGcE](https://flic.kr/p/e5HGcE). [CC BY-ND 2.0](https://creativecommons.org/licenses/by-nd/2.0/)](8586038796_6e128ee568_o_d.jpg)
 
 ### Different database solutions (a sample)
 
@@ -99,7 +103,7 @@ One way to think about different database systems is to distinguish between **fi
 
 Check [here](https://en.wikipedia.org/wiki/List_of_relational_database_management_systems) for a more comprehensive list of relational database options. 
 
-#### Client applications (interact with both file- and server-based solutions)
+### Client applications (interact with both file- and server-based solutions)
 
 While many relational database systems implement the core *Structured Query Language* for interacting with a database and its contents. (SQL will be demo'ed next), some databases either extend the language with their own proprietary extensions, or use their own language all together to perform database management and query tasks. 
 

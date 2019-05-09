@@ -1,6 +1,9 @@
-% Code and Coffee - Database Basics
-% Karl Benedict, Jon Wheeler. UNM Libraries, Research Data Services
-% February 9, 2018
+---
+title: Code and Coffee - Database Basics
+author: Karl Benedict, Jon Wheeler. UNM Libraries, Research Data Services
+geometry: margin=1in
+output: pdf_document
+---
 
 ## Why Use a Database to Organize Your Data
 
@@ -28,8 +31,8 @@ Superficially, a table is a set of values defined by rows and columns. Columns c
 
 Donuts make a good example. Let's imagine that we've decided to classify an assorted dozen donuts. Three obvious characteristics stand out - the dough, the glaze, and the filling. Every donut in our dozen can be described according to these characteristics and represented with a unique row in a table:
 
-| donutID | dough | glaze | filling|
-|-------|-------|-------|--------|
+| donutID | dough | glaze | filling |
+|:-------|:-------|:-------|:--------|
 |1     | cake  | maple | none |
 |2     | yeast | sugar | none |
 |3     | yeast | maple | boston creme |
@@ -39,7 +42,7 @@ Donuts make a good example. Let's imagine that we've decided to classify an asso
 
 Easy! BUT - table design can be one of the more interesting and challenging aspects of data definition and database development. Donuts make an easy example because a box of donuts is not necessarily a complex system. It's a box. With donuts. Compare that with Amazon.com or other online retail system within which a large number of complex entities interact in complex ways, or with a census of animal populations at the Bosque del Apache. Would you record all the animals in a single table? Use one table for birds and one mammals, or even create a separate table for each species?!
 
-Without getting into the weeds of normal forms or normalization, it's important when designing a database to give thought to:
+Without getting into the weeds of [normal forms or normalization](https://en.wikipedia.org/wiki/Database_normalization), it's important when designing a database to give thought to:
 
 * The sets or types of entities described
 * Unique characteristics of each set
